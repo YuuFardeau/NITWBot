@@ -1,0 +1,30 @@
+A NITW Themed Bot that takes a text input, and outputs an image of the text in the NITW font and relevant colour.
+
+
+General:
+
+  help                              Shows this message
+
+  say {character} {text}            Creates an image of the character speaking with the specified text
+
+  Available Characters: gregg, mae, bea, lori, coffinwolf, germ, angus, adina, selmers, jackie, pumpkinhead, garbo, malloy, molly, dad, mom, cole, deer, sharkle
+
+  markov {character}                Generates an image of the character speaking with generated text
+
+  Available Characters: gregg, mae, bea
+
+  showchannels     Output: Shows channels bot will respond in
+
+
+Admin Only:
+
+  disablechannel {channel id}       Output: Disables Bot in Channel
+  enablechannel  {channel id}       Output: Enables Bot in Channel
+
+  disablelogging                    Output: Disables Bot Logs
+  enablelogging {channel id}        Output: Enables Bot Logs in Channel
+
+Changes in Version 1.2.1
+
+  Added Markov-chain Generation for Mae, Gregg and Bea.
+  Fixed a bug where newlines are sometimes created at the end of a message.

@@ -1,0 +1,22 @@
+V 1.2.1
+
+  Added Markov-chain Generation for Mae, Gregg, Bea, Angus, Lori, Selmers, Germ, Dad and Mom.
+  Fixed a bug where newlines are sometimes created at the end of a message.
+
+V 1.1.1
+
+  Improved Server-side Logging - Now tracking server message is played in
+  Changed Command to .say {char} {text}
+  Changed how Ingame characters are parsed: making it easier to add new ones
+  Added some new characters
+  Added Multiline Text Support
+  Fixed Spaces appearing at the start of newlines
+  Added Discord-logs
+
+V 1.0.1
+
+  Added left padding on images to prevent Discord from cropping images in preview
+  Fixed Text sometimes being cropped off by speech bubble on left side
+  Fixed Emojis not displaying correctly
+  Fixed Channel and User Mentions being displayed incorrectly
+  Fixed Server Specific Emotes being displayed incorrectly
